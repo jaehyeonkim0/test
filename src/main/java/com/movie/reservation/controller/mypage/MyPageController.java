@@ -19,6 +19,6 @@ public class MyPageController {
 
     @GetMapping("/mypage")
     public void mypageGET() {
-        System.out.println("Git Fetch 테스트중입니다");
+        System.out.println("Git Fetch 테스트중입니다2");
     }
 }
