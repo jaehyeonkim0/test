@@ -1,4 +1,4 @@
-#Git & Github 연습 레파지토리
+# Git & Github 연습 레파지토리
 
 아직 미숙한 Git 과 Github 명령어 연습과 README.md 작성 연습 공간입니다.
 
