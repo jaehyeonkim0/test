@@ -2,7 +2,7 @@ package com.movie.reservation.service.login;
 
 import com.movie.reservation.domain.member.Member;
 import com.movie.reservation.domain.member.role.MemberRole;
-import com.movie.reservation.repository.MemberRepository;
+import com.movie.reservation.repository.member.MemberRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

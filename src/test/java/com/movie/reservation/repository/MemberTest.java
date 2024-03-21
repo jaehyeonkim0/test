@@ -1,19 +1,14 @@
 package com.movie.reservation.repository;
 
-import com.movie.reservation.domain.board.Board;
 import com.movie.reservation.domain.member.Member;
 import com.movie.reservation.domain.member.role.MemberRole;
-import jakarta.persistence.*;
+import com.movie.reservation.repository.member.MemberRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.Optional;
 
 @SpringBootTest
 @Log4j2

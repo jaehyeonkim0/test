@@ -1,4 +1,4 @@
-package com.movie.reservation.repository;
+package com.movie.reservation.repository.member;
 
 import com.movie.reservation.domain.member.Member;
 import org.springframework.data.jpa.repository.EntityGraph;

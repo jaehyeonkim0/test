@@ -3,6 +3,7 @@ package com.movie.reservation.repository;
 import com.movie.reservation.domain.board.Board;
 import com.movie.reservation.domain.member.Member;
 import com.movie.reservation.repository.board.BoardRepository;
+import com.movie.reservation.repository.member.MemberRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

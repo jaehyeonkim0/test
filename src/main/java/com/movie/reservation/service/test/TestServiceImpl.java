@@ -4,7 +4,7 @@ import com.movie.reservation.domain.board.Board;
 import com.movie.reservation.domain.member.Member;
 import com.movie.reservation.dto.board.BoardDto;
 import com.movie.reservation.dto.mypage.MemberDto;
-import com.movie.reservation.repository.MemberRepository;
+import com.movie.reservation.repository.member.MemberRepository;
 import com.movie.reservation.repository.board.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

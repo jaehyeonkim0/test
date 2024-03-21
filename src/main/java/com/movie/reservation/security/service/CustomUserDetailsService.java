@@ -1,8 +1,7 @@
 package com.movie.reservation.security.service;
 
 import com.movie.reservation.domain.member.Member;
-import com.movie.reservation.domain.member.role.MemberRole;
-import com.movie.reservation.repository.MemberRepository;
+import com.movie.reservation.repository.member.MemberRepository;
 import com.movie.reservation.security.dto.MemberSecurityRequestDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;

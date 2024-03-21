@@ -1,9 +1,7 @@
 package com.movie.reservation.config.jwt;
 
 import com.movie.reservation.domain.member.Member;
-import com.movie.reservation.repository.MemberRepository;
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jwts;
+import com.movie.reservation.repository.member.MemberRepository;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.io.Encoders;
 import io.jsonwebtoken.security.Keys;
