@@ -4,5 +4,5 @@ import com.movie.reservation.dto.mypage.MemberDto;
 
 public interface MyPageService {
 
-    public MemberDto getMemberDto(String username);
+    MemberDto getMemberDto(String username);
 }
