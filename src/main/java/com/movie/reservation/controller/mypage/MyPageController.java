@@ -24,7 +24,7 @@ public class MyPageController {
 
     @GetMapping("/mypage")
     public String mypageGET(Authentication authentication, Model model) {
-        //TODO 로그인한 사용자 커스텀 어노테이션 생성해서 수정
+
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
         String username = userDetails.getUsername();
 
