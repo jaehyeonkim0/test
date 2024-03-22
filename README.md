@@ -34,9 +34,11 @@
   - 로컬 브랜치 삭제
 - git push origin -d '원격 브랜치'
   - 원격 브랜치 삭제
-
+- git reset HEAD 파일명
+  - 특정 파일 unstaged
 
 - git log --decorate --all --online
   - 모든 브랜치의 로그 확인
 - git diff HEAD origin/main
   - 로컬 브랜치와 원격 저장소의 최신 내용 중 다른 점 확인
+  
