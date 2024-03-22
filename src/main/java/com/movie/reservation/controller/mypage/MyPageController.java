@@ -7,6 +7,8 @@ import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,12 +23,13 @@ public class MyPageController {
     private final MyPageService myPageService;
 
     @GetMapping("/mypage")
-    public String mypageGET(HttpSession session, Model model) {
+    public String mypageGET(Authentication authentication, Model model) {
         //TODO 로그인한 사용자 커스텀 어노테이션 생성해서 수정
-        String username = (String) session.getAttribute(SessionConstant.LOGIN_MEMBER);
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        String username = userDetails.getUsername();
 
         MemberDto memberDto = myPageService.getMemberDto(username);
-
+        model.addAttribute("member", memberDto);
 
         return "member/mypage/mypage";
     }
