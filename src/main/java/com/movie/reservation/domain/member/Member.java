@@ -62,7 +62,7 @@ public class Member {
         this.boardList.add(board);
     }
 
-    public MemberDto toMemberDto(Member member) {
+    public MemberDto toMemberDto() {
         MemberDto memberDto = new MemberDto();
         memberDto.setUsername(this.getUsername());
         memberDto.setName(this.getName());
