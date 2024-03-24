@@ -38,6 +38,8 @@
   - 원격 브랜치 삭제
 - git reset HEAD 파일명
   - 특정 파일 unstaged
+ 
+- 테스트중입니다
 
 
 - git log --decorate --all --online
