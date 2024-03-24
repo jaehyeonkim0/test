@@ -32,10 +32,13 @@
   - 원격 저장소의 최신 내용을 확인하지만, 로컬 저장소로 가져오진 않는다
 - git branch -d '로컬 브랜치'
   - 로컬 브랜치 삭제
+- git branch -D '로컬 브랜치'
+  - 로컬 브랜치 '강제' 삭제
 - git push origin -d '원격 브랜치'
   - 원격 브랜치 삭제
 - git reset HEAD 파일명
   - 특정 파일 unstaged
+
 
 - git log --decorate --all --online
   - 모든 브랜치의 로그 확인
